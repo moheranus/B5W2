@@ -1,0 +1,11 @@
+Python
+
+pycache/ *.py[cod] *.ipynb_checkpoints/ *.csv *.png
+
+Environment
+
+venv/ .env
+
+System files
+
+.DS_Store Thumbs.db
