@@ -6,7 +6,7 @@ import os
 import torch
 
 # Load cleaned data
-df = pd.read_csv('../data/raw_reviews.csv')
+df = pd.read_csv('C:/Users/daniel.shobe/Desktop/schoolify/B5W2/B5W2/data/raw_reviews.csv')
 
 # Sentiment Analysis with DistilBERT (CPU mode)
 sentiment_analyzer = pipeline("sentiment-analysis", model="distilbert-base-uncased-finetuned-sst-2-english")
